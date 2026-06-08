@@ -34,7 +34,7 @@ In our paper, we compared the performance of different models, including CNNs an
 
 ## Results of Prediction Comparisons
 
-Fig.~\ref{fig:results} visualizes the model's performance on VHS keypoint prediction. It displays three random X-ray image coordinate predictions from each dataset, using models with centralized weights at the optimal 25th round; blue lines indicate ground-truth labels, and cyan lines indicate predictions. From the figure, it is clear that the blue and cyan lines are almost overlapped, indicating the model performs well in predicting the VHS keypoint coordinates, and thereby the derived VHS calculation and cardiomegaly classification.
+The following figure visualizes the model's performance on VHS keypoint prediction. It displays three random X-ray image coordinate predictions from each dataset, using models with centralized weights at the optimal 25th round; blue lines indicate ground-truth labels, and cyan lines indicate predictions. From the figure, it is clear that the blue and cyan lines are almost overlapped, indicating the model performs well in predicting the VHS keypoint coordinates, and thereby the derived VHS calculation and cardiomegaly classification.
 
 <div align="center">
     <img src="Figs/results.png" alt="FID metric of several models">
