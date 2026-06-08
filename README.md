@@ -28,8 +28,8 @@ In our paper, we compared the performance of different models, including CNNs an
 
 
 <div align="center">
-    <img src="Figs/DNS.png" alt="Generated samples on CelebAHQ daatset">
-    <p>Backnone network selection </p>
+    <img src="Figs/FD_re.png" alt="Generated samples on CelebAHQ daatset">
+    <p>Backbone network selection </p>
 </div>
 
 ## Results of Prediction Comparisons
