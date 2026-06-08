@@ -15,31 +15,29 @@
 </div>
 
 
-## Algorithm of AIGD
+## Algorithm of PAFL
 
 <div align="center">
     <img src="Figs/FD_Alg.png" alt=algo">
     <p>The Training Algorithm.</p>
 </div>
 
-## Results of DNS challenge dataset
+## Results of different backbone networks
+
+In our paper, we compared the performance of different models, including CNNs and vision transformers, as feature-extraction backbones for our proposed federated learning architecture on the keypoint prediction task. The following table presents comparison statistics for the models, using classification accuracy, which derivatively reports the model's performance in predicting keypoint coordinates. Among the selected models, EfficientNet-B7 stands out as the best-performing model for predicting keypoints, calculating the VHS score, and predicting canine cardiomegaly, achieving validation accuracy of 72.7% and test accuracy of 71.7%. Based on these results, EfficientNet-B7 is selected as the backbone for training our subsequent federated learning framework. 
+
 
 <div align="center">
     <img src="Figs/DNS.png" alt="Generated samples on CelebAHQ daatset">
-    <p>Results of DNS challenge dataset </p>
+    <p>Backnone network selection </p>
 </div>
 
-## Results of BirdSoundsDenoising dataset
+## Results of Prediction Comparisons
+
+Fig.~\ref{fig:results} visualizes the model's performance on VHS keypoint prediction. It displays three random X-ray image coordinate predictions from each dataset, using models with centralized weights at the optimal 25th round; blue lines indicate ground-truth labels, and cyan lines indicate predictions. From the figure, it is clear that the blue and cyan lines are almost overlapped, indicating the model performs well in predicting the VHS keypoint coordinates, and thereby the derived VHS calculation and cardiomegaly classification.
 
 <div align="center">
-    <img src="Figs/bird.png" alt="FID metric of several models">
-    <p> Results of BirdSoundsDenoising dataset.</p>
+    <img src="Figs/results.png" alt="FID metric of several models">
+    <p> Results demonstration of predicted keypoints after applying federated learning for three datasets.</p>
 </div>
 
-
-## Parameter analysis
-
-<div align="center">
-    <img src="Figs/para.png" alt="FID metric of several models">
-    <p></p>
-</div>
