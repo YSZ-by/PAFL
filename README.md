@@ -2,17 +2,23 @@
 
 ## PAFL Model Architecture
 
-- We develop the AIGD model for audio denoising. 
+- We develop the PAFL model for Canine Cardiomegaly Keypoint Prediction. 
 
 <div align="center">
-    <img src="Figs/AIGD.png" alt="Image Generation with WD-Mamba ">
-    <p>AIGD model.</p>
+    <img src="Figs/Client_architecture2.png" alt="model  ">
+    <p>Proposed client architecture for the VHS keypoint prediction model.</p>
 </div>
+
+<div align="center">
+    <img src="Figs/Federated_architecture1.png" alt="model  ">
+    <p>Proposed personalized and adaptive federated learning architecture for quality-aware aggregation.</p>
+</div>
+
 
 ## Algorithm of AIGD
 
 <div align="center">
-    <img src="Figs/alg.png" alt=algo">
+    <img src="Figs/FD_Alg.png" alt=algo">
     <p>The Training Algorithm.</p>
 </div>
 
